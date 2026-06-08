@@ -13,6 +13,6 @@
 ## June 8, 2026
 
 - Learned Logistic Regression
-- Studied binary classification
-- Learned about the sigmoid function
-- Added Logistic Regression notes to GitHub
+- Added real-world example
+- Added Python example
+- Made a GitHub contribution
