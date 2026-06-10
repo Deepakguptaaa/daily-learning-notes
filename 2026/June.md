@@ -16,3 +16,9 @@
 - Added real-world example
 - Added Python example
 - Made a GitHub contribution
+
+## June 10, 2026
+
+- Learned Decision Trees
+- Studied Entropy and Information Gain
+- Added Decision Tree notes to GitHub
