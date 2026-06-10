@@ -5,10 +5,11 @@
 - Solved 1 DSA problem
 - Worked on Resume Analyzer
 
-## June 6
-- Created ML notes on Linear Regression
-- Learned the basic Linear Regression formula
-- Added notes to GitHub repository
+## June 6, 2026
+
+- Learned Linear Regression
+- Added examples and Python implementation
+- Created Linear Regression notes
 
 ## June 8, 2026
 
