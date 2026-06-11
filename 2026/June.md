@@ -23,3 +23,9 @@
 - Learned Decision Trees
 - Studied Entropy and Information Gain
 - Added Decision Tree notes to GitHub
+
+## June 11, 2026
+
+- Learned K-Nearest Neighbors (KNN)
+- Understood distance-based classification
+- Created KNN notes in ML repository
