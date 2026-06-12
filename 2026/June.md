@@ -29,3 +29,10 @@
 - Learned K-Nearest Neighbors (KNN)
 - Understood distance-based classification
 - Created KNN notes in ML repository
+
+## June 12, 2026
+
+- Learned Random Forest
+- Understood ensemble learning
+- Learned how multiple Decision Trees vote together
+- Added Random Forest notes to GitHub
