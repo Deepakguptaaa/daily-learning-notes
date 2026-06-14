@@ -36,3 +36,9 @@
 - Understood ensemble learning
 - Learned how multiple Decision Trees vote together
 - Added Random Forest notes to GitHub
+
+## June 14, 2026
+
+- Learned Support Vector Machine (SVM)
+- Understood hyperplanes and support vectors
+- Added SVM notes to GitHub
