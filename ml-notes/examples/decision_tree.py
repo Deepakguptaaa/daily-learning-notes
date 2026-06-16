@@ -1,11 +1,13 @@
+import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
+from utils.path_config import DATA_PATH
 
-# Loan approval dataset
-# income, credit_score simplified into single feature for learning
-X = [[20000], [30000], [40000], [50000], [60000], [70000]]
-y = [0, 0, 0, 1, 1, 1]
+df = pd.read_csv(DATA_PATH)
+
+X = df[["income", "age"]]
+y = df["loan_approved"]
 
 model = DecisionTreeClassifier()
 model.fit(X, y)
 
-print(model.predict([[45000]]))
+print("Prediction:", model.predict([[60000, 35]])[0])

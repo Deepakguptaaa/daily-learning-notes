@@ -1,10 +1,13 @@
+import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
+from utils.path_config import DATA_PATH
 
-# Fraud detection simplified dataset
-X = [[100], [200], [300], [400], [500], [600]]
-y = [0, 0, 0, 1, 1, 1]
+df = pd.read_csv(DATA_PATH)
+
+X = df[["income", "age"]]
+y = df["loan_approved"]
 
 model = RandomForestClassifier()
 model.fit(X, y)
 
-print(model.predict([[350]]))
+print("Prediction:", model.predict([[70000, 40]])[0])

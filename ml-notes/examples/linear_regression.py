@@ -1,18 +1,13 @@
+import pandas as pd
 from sklearn.linear_model import LinearRegression
-import numpy as np
+from utils.path_config import DATA_PATH
 
-# Realistic dataset: Advertising spend vs Sales
-X = np.array([
-    [100], [200], [300], [400], [500], [600]
-])  # ad spend in $
+df = pd.read_csv(DATA_PATH)
 
-y = np.array([
-    1000, 1900, 2900, 4100, 5000, 6100
-])  # sales
+X = df[["income"]]
+y = df["age"]
 
 model = LinearRegression()
 model.fit(X, y)
 
-prediction = model.predict([[450]])
-
-print("Predicted Sales:", prediction[0])
+print("Prediction:", model.predict([[55000]])[0])

@@ -1,10 +1,13 @@
+import pandas as pd
 from sklearn.linear_model import LogisticRegression
+from utils.path_config import DATA_PATH
 
-# Hours studied vs pass/fail
-X = [[1], [2], [3], [4], [5], [6], [7], [8]]
-y = [0, 0, 0, 0, 1, 1, 1, 1]
+df = pd.read_csv(DATA_PATH)
+
+X = df[["income", "age"]]
+y = df["loan_approved"]
 
 model = LogisticRegression()
 model.fit(X, y)
 
-print(model.predict([[5.5]]))
+print("Prediction:", model.predict([[45000, 30]])[0])

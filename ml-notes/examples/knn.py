@@ -1,10 +1,13 @@
+import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
+from utils.path_config import DATA_PATH
 
-# Movie rating similarity example
-X = [[1], [2], [3], [6], [7], [8]]
-y = ["Bad", "Bad", "Bad", "Good", "Good", "Good"]
+df = pd.read_csv(DATA_PATH)
+
+X = df[["age", "spam_score"]]
+y = df["sentiment"]
 
 model = KNeighborsClassifier(n_neighbors=3)
 model.fit(X, y)
 
-print(model.predict([[4]]))
+print("Prediction:", model.predict([[30, 0.5]])[0])
