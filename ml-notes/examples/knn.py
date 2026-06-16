@@ -1,11 +1,10 @@
 from sklearn.neighbors import KNeighborsClassifier
 
+# Movie rating similarity example
 X = [[1], [2], [3], [6], [7], [8]]
-y = [0, 0, 0, 1, 1, 1]
+y = ["Bad", "Bad", "Bad", "Good", "Good", "Good"]
 
 model = KNeighborsClassifier(n_neighbors=3)
 model.fit(X, y)
 
-prediction = model.predict([[5]])
-
-print(prediction)
+print(model.predict([[4]]))
