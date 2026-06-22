@@ -42,3 +42,10 @@
 - Learned Support Vector Machine (SVM)
 - Understood hyperplanes and support vectors
 - Added SVM notes to GitHub
+
+## June 22, 2026
+
+- Learned Naive Bayes
+- Understood Bayes Theorem
+- Studied spam classification use cases
+- Added Naive Bayes notes to GitHub
