@@ -53,3 +53,13 @@ Prediction:
 - Naive Bayes is based on probability.
 - It uses Bayes Theorem for prediction.
 - It is widely used in text classification tasks.
+
+from sklearn.naive_bayes import GaussianNB
+
+X = [[1], [2], [3], [6], [7], [8]]
+y = [0, 0, 0, 1, 1, 1]
+
+model = GaussianNB()
+model.fit(X, y)
+
+print("Prediction:", model.predict([[5]])[0])
