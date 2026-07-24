@@ -58,3 +58,42 @@ Scikit-learn
 NumPy
 
 Matplotlib
+
+## 📚 Learning Progress
+
+### Machine Learning
+
+* ✅ Linear Regression
+* ✅ Logistic Regression
+* ✅ Decision Trees
+* ✅ Random Forest
+* ✅ KNN
+* ✅ SVM
+* ✅ Naive Bayes
+* ✅ K-Means Clustering
+* ✅ PCA
+* ✅ Cross Validation
+* ✅ Feature Engineering
+* ✅ Feature Selection
+* ✅ Hyperparameter Tuning
+* ✅ Ensemble Learning
+* ✅ AdaBoost
+* ✅ Gradient Boosting
+* ✅ XGBoost
+* ✅ LightGBM
+* ✅ CatBoost
+
+### MLOps
+
+* ✅ Model Serialization
+* ✅ Model Monitoring (Basics)
+
+### Next Topics
+
+* SHAP
+* LIME
+* Flask Deployment
+* FastAPI
+* Docker
+* MLflow
+* DVC
